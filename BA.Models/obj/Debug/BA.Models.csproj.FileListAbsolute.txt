@@ -1,0 +1,5 @@
+C:\Users\Iulica\documents\visual studio 2015\Projects\BAAPI\BA.Models\bin\Debug\BA.Models.dll
+C:\Users\Iulica\documents\visual studio 2015\Projects\BAAPI\BA.Models\bin\Debug\BA.Models.pdb
+C:\Users\Iulica\documents\visual studio 2015\Projects\BAAPI\BA.Models\obj\Debug\BA.Models.dll
+C:\Users\Iulica\documents\visual studio 2015\Projects\BAAPI\BA.Models\obj\Debug\BA.Models.pdb
+C:\Users\Iulica\documents\visual studio 2015\Projects\BAAPI\BA.Models\obj\Debug\BA.Models.csprojResolveAssemblyReference.cache

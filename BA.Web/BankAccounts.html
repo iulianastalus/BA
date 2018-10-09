@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="Scripts/angular.min.js"></script>
+    <script type="text/javascript" src="Scripts/angular-route.min.js"></script>
+    <script type="text/javascript" src="Scripts/App/bankAccountController.js"></script>
+    <link rel="stylesheet" href="Content/bootstrap.css" />
+    <link rel="stylesheet" href="Content/site.css" />
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body ng-app="App">
+    <div class="container col-12" ng-controller="bankAccountController">
+        <div class="row col-12">
+            <form class="col-3">
+                <div class="form-group col-12">
+                    <div>
+                        <label for="method">Select Method:</label>
+                        <select class="form-control" name="method" id="method" ng-model="bankAccountModel.method" ng-change="changeOperation()">
+                            <option value="">Select</option>
+                            <option value="balance">Balance</option>
+                            <option value="deposit">Deposit</option>
+                            <option value="withdraw">Withdraw</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="account">Account:</label>
+                        <input id="account" name="account" class="form-control" ng-model="bankAccountModel.account" />
+                    </div>
+                    <div>
+                        <label for="amount">Amount:</label>
+                        <input id="amount" name="amount" class="form-control" ng-model="bankAccountModel.amount" ng-disabled="disabledAmount" />
+                    </div>
+                    <div>
+                        <label for="currency">Currency:</label>
+                        <select class="form-control" name="currency" id="currency" ng-model="bankAccountModel.currency" ng-disabled="disableCurrency">
+                            <option value="">Select</option>
+                            <option value="usd">USD</option>
+                            <option value="eur">EUR</option>
+                            <option value="cad">CAD</option>
+                            <option value="thb">THB</option>
+                            <option value="gbp">GBP</option>
+                            <option value="jpy">JPY</option>
+                        </select>
+                    </div>
+                    <div>
+                        <br />
+                        <button type="submit" ng-click="sendOperation(bankAccountModel)" id="go" class="form-control btn btn-success">Go!</button>
+                    </div>
+                </div>
+            </form>           
+            <div class="col-9 border-dark text_for_banner alert-dark">
+                <h1 class="alert-dark text-xl-center margin50">Space For Banner!</h1>
+            </div>
+        </div>
+        <div class="row col-12">
+            <span class="text-black-50">{{message}}</span>
+        </div>
+    </div>
+    
+</body>
+</html>

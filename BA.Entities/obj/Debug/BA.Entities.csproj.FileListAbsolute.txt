@@ -1,0 +1,9 @@
+C:\Users\Iulica\documents\visual studio 2015\Projects\BAAPI\BA.Entities\bin\Debug\BA.Entities.dll.config
+C:\Users\Iulica\documents\visual studio 2015\Projects\BAAPI\BA.Entities\bin\Debug\BA.Entities.dll
+C:\Users\Iulica\documents\visual studio 2015\Projects\BAAPI\BA.Entities\bin\Debug\BA.Entities.pdb
+C:\Users\Iulica\documents\visual studio 2015\Projects\BAAPI\BA.Entities\bin\Debug\EntityFramework.dll
+C:\Users\Iulica\documents\visual studio 2015\Projects\BAAPI\BA.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Iulica\documents\visual studio 2015\Projects\BAAPI\BA.Entities\bin\Debug\EntityFramework.xml
+C:\Users\Iulica\documents\visual studio 2015\Projects\BAAPI\BA.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Iulica\documents\visual studio 2015\Projects\BAAPI\BA.Entities\obj\Debug\BA.Entities.dll
+C:\Users\Iulica\documents\visual studio 2015\Projects\BAAPI\BA.Entities\obj\Debug\BA.Entities.pdb
